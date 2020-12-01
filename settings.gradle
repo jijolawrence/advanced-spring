@@ -1,0 +1,11 @@
+rootProject.name = "advanced-spring"
+
+include "platform-services:eureka-server"
+include "applications:onboarding-server"
+
+include "components:customer"
+
+include "components:rest-support"
+include "components:test-support"
+
+include "databases:onboarding-database"

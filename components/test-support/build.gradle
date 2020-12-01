@@ -1,0 +1,7 @@
+dependencies {
+    compile project(":components:rest-support")
+    compile "org.springframework:spring-jdbc:$springVersion"
+    compile "com.h2database:h2"
+    compile "org.springframework.boot:spring-boot-starter-data-jpa"
+    compile "junit:junit:$junitVersion"
+}
